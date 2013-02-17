@@ -26,10 +26,7 @@ import android.widget.TextView;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import android.content.res.Resources.NotFoundException;
+
 public class ChangelogFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -51,16 +48,7 @@ public class ChangelogFragment extends Fragment {
     }
 
     private String readChangelog() {
-        BufferedReader try {
-	inputStream = new BufferedReader(
-	new InputStreamReader(getResources().openRawResource(R.raw.changelog),"UTF-8"),512);
-        } catch (UnsupportedEncodingException e1) {
-        // TODO Auto-generated catch block
-        e1.printStackTrace();
-        } catch (NotFoundException e1) {
-        // TODO Auto-generated catch block
-        e1.printStackTrace();
-} 
+        InputStream inputStream = getResources().openRawResource(R.raw.changelog);
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
         int i;
