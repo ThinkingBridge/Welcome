@@ -1,19 +1,48 @@
 
 
-build5
--
+beta 1
+- AOSP 4.2.2_r1
+- Support new devices
+- Fix korean camera sound
+- Support multiusers on phone
+- Add Pie control
+- Add Customom hardware keys
 
-build4
-- 
 
-build3
+build 5
+- AOSP 4.2.1_r1.2
+- Fix Extended powermenu
+- Add hotreboot menu
+- Alternate Signal Layout
+- Add CyanogenMod LockClock
+- Don't kill foreground task
+- New JB theme
+- Add CmCircleBattery
+- always use transparent notification shade
+- Add NavBarColor
+- Add Facebook sync
+
+build 4
+- New Customized app
+- Navigation bar customization
+- Added option to modify carrier label.
+- Ram bar in recents menu.
+- Signal customization
+- Added navigation bar widgets.
+- Implement noise suppression for phone calls.
+- Fixed clock AM/PM error.
+- Quick settings customization
+- Extended powermenu
+- Added "Turn Wi-Fi off" action to the "open networks available"
+
+build 3
 - Change CM to AOSP
 - AOSP 4.2.1_r1
 - Increase media volume threshold from 15 to 30 (Provision team)
 - Fix Google location bug
 - Remove lag when launching an app
 
-build2 
+build 2 
 - Update circle battery charging animation
 - Kill app long press button faster
 - Fix many typo
@@ -25,14 +54,14 @@ build2
 - Add Navbar transparency and glow speed
 
 
-build1
+build 1
 - Add digital battery style
 - Change fonts
 - Change ringtone
 - some bug fix
 
 
-Alpha2
+Alpha 2
 - Rebase 4.1.2 r1
 - Remove Weather Panel (system ui fc error)
 - Add Welcome
@@ -41,7 +70,7 @@ Alpha2
 - Add Performance Settings
 
 
-Alpha1
+Alpha 1
 - AOSP 4.1.1 r6
 - First release of Jellybean!
 - Add Wether panel

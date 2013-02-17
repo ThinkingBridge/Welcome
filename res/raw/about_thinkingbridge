@@ -4,6 +4,7 @@ ThinkingBridge ROM is an Android aftermarket firmware which is built with the pu
 ThinkingBridge Team:
 htchoi5609 / Maintainer , Platform Developer
 woorim98 / Platform Developer
+black9 / Platform Developer
 DJBhardwaj / Users Support
 Akibingbing / Web content manager
 
@@ -11,4 +12,6 @@ Device currently supported:
 GSM Galaxy Nexus (maguro)
 Nexus S (crespo)
 Nexus 7 (grouper)
+Galaxy S2 (i9100)
+Galaxy S3 (i9300)
 and more

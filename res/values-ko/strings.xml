@@ -16,7 +16,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">ThinkingBridge ROM</string>
+    <string name="app_name">Welcome</string>
 
     <string name="about_tab_title">대하여</string>
     <string name="changelog_tab_title">체인지로그</string>
