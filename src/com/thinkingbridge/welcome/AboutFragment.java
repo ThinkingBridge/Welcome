@@ -51,15 +51,15 @@ public class AboutFragment extends Fragment {
 
     private String readAbout() {
     try {
-	inputStream = new BufferedReader(
-	        new InputStreamReader(getResources().openRawResource(R.raw.about_thinkingbridge),"UTF-8"),512);
-        } catch (UnsupportedEncodingException e1) {
-        // TODO Auto-generated catch block
-        e1.printStackTrace();
-        } catch (NotFoundException e1) {
-        // TODO Auto-generated catch block
-        e1.printStackTrace();
-	    } 
+    inputStream = new BufferedReader(
+    new InputStreamReader(getResources().openRawResource(R.raw.about_thinkingbridge),"UTF-8"),512);
+    	} catch (UnsupportedEncodingException e1) {
+    	// TODO Auto-generated catch block
+    	e1.printStackTrace();
+    	} catch (NotFoundException e1) {
+    	// TODO Auto-generated catch block
+    	e1.printStackTrace();
+}
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
         int i;

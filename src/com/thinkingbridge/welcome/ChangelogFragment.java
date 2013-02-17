@@ -51,7 +51,7 @@ public class ChangelogFragment extends Fragment {
     }
 
     private String readChangelog() {
-        BufferedReader try {
+    try {
 	inputStream = new BufferedReader(
 	new InputStreamReader(getResources().openRawResource(R.raw.changelog),"UTF-8"),512);
         } catch (UnsupportedEncodingException e1) {
