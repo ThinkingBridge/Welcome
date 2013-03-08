@@ -1,80 +1,29 @@
+beta3
+- Pie control update
+- Remove Sense style recent menu
+- Toggle rewrite
+- Fixed systemUI crash
+- More detail back to kill toast
+- Navbar performance update
+- Fixed expanded desktop mode
+- Fixed many bugs
+- Added many features
 
+beta 2
+- Add launcher configuration
+- Launcher2 -> Trebuchet
+- Fix camera FC
+- Sense style recent menu
+- Improved layout for CMCircleBattery
+- Fix NPE on Phonestatusbar
+- Support multiuser on phones
+- Fixed many bugs
 
 beta 1
+- First release
 - AOSP 4.2.2_r1
 - Support new devices
-- Fix korean camera sound
+- Fixed korean camera sound
 - Support multiusers on phone
 - Add Pie control
 - Add Customom hardware keys
-
-
-build 5
-- AOSP 4.2.1_r1.2
-- Fix Extended powermenu
-- Add hotreboot menu
-- Alternate Signal Layout
-- Add CyanogenMod LockClock
-- Don't kill foreground task
-- New JB theme
-- Add CmCircleBattery
-- always use transparent notification shade
-- Add NavBarColor
-- Add Facebook sync
-
-build 4
-- New Customized app
-- Navigation bar customization
-- Added option to modify carrier label.
-- Ram bar in recents menu.
-- Signal customization
-- Added navigation bar widgets.
-- Implement noise suppression for phone calls.
-- Fixed clock AM/PM error.
-- Quick settings customization
-- Extended powermenu
-- Added "Turn Wi-Fi off" action to the "open networks available"
-
-build 3
-- Change CM to AOSP
-- AOSP 4.2.1_r1
-- Increase media volume threshold from 15 to 30 (Provision team)
-- Fix Google location bug
-- Remove lag when launching an app
-
-build 2 
-- Update circle battery charging animation
-- Kill app long press button faster
-- Fix many typo
-- "Clear all"  button on recent app
-- Nexus 7 binary update
-- Add ability toggle navbar on sgs3
-- Custom Navigation bar height
-- Add Navbar key and glow color
-- Add Navbar transparency and glow speed
-
-
-build 1
-- Add digital battery style
-- Change fonts
-- Change ringtone
-- some bug fix
-
-
-Alpha 2
-- Rebase 4.1.2 r1
-- Remove Weather Panel (system ui fc error)
-- Add Welcome
-- Add Navigation bar (cm)
-- Add lockscreen (cm)
-- Add Performance Settings
-
-
-Alpha 1
-- AOSP 4.1.1 r6
-- First release of Jellybean!
-- Add Wether panel
-- Add statusbar option
-- Add T-mobile Theme (tmobile,cm)
-- T9 Dialer/Landscape/Dialpad Settings (CM)
-- Customizable Power Menu
