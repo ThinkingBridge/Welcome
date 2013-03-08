@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2013 Team Bridge
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,9 +23,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
@@ -39,42 +36,10 @@ public class AboutFragment extends Fragment {
 
         View aboutView = inflater.inflate(R.layout.about_fragment, container, false);
 
-        AboutActivity aboutActivity = new AboutActivity();
-
         TextView aboutText = (TextView) aboutView.findViewById(R.id.about);
-        aboutText.setText(readAbout());
+        aboutText.setText(Utils.readRawFile(AboutActivity.appContext, R.raw.about_thinkingbridge));
 
         // Inflate the layout for this fragment
         return aboutView;
     }
-
-
-    private String readAbout() {
-    try {
-    inputStream = new BufferedReader(
-    new InputStreamReader(getResources().openRawResource(R.raw.about_thinkingbridge),"UTF-8"),512);
-    	} catch (UnsupportedEncodingException e1) {
-    	// TODO Auto-generated catch block
-    	e1.printStackTrace();
-    	} catch (NotFoundException e1) {
-    	// TODO Auto-generated catch block
-    	e1.printStackTrace();
-}
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-
-        int i;
-        try {
-            i = inputStream.read();
-        while (i != -1) {
-        	
-           byteArrayOutputStream.write(i);
-           i = inputStream.read();
-        }
-            inputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return byteArrayOutputStream.toString();
-    }
-
 }

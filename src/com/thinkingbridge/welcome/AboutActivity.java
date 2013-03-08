@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2013 Team Bridge
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,22 +26,16 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.SystemProperties;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-
-//import java.io.ByteArrayOutputStream;
-//import java.io.IOException;
-//import java.io.InputStream;
 
 public class AboutActivity extends Activity {
     public static Context appContext;
 
     public static final String PREFS_NAME = "Welcome";
     public static final String ROM_VERSION = "rom_version";
-    private static final String ROM_VERSION_PROP = "ro.modversion";
 	
     /** Called when the activity is first created. */
     @Override
@@ -50,7 +44,7 @@ public class AboutActivity extends Activity {
         setContentView(R.layout.main);
         appContext = getApplicationContext();
 
-       //ActionBar
+        //ActionBar
         ActionBar actionbar = getActionBar();
         actionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         
@@ -82,7 +76,7 @@ public class AboutActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.menuitem_exit:
-                String romVersion = getRomVersion();
+                String romVersion = Utils.getRomVersion();
 
                 SharedPreferences prefs = this.getSharedPreferences(PREFS_NAME, 0);
                 SharedPreferences.Editor prefEditor = prefs.edit();
@@ -100,31 +94,6 @@ public class AboutActivity extends Activity {
         super.onSaveInstanceState(outState);
         outState.putInt("tab", getActionBar().getSelectedNavigationIndex());
     }
-
-/*    public String readFile(int resId) {
-        InputStream inputStream = getResources().openRawResource(resId);
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-
-        int i;
-        try {
-            i = inputStream.read();
-        while (i != -1) {
-           byteArrayOutputStream.write(i);
-           i = inputStream.read();
-        }
-            inputStream.close();
-        } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        return byteArrayOutputStream.toString();
-    }*/
-
-    public String getRomVersion() {
-        String version = SystemProperties.get(ROM_VERSION_PROP);
-        return version;
-    }
-
 }
 
 class MyTabsListener implements ActionBar.TabListener {

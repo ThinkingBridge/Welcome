@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Android Open Source Project
+ * Copyright (C) 2013 Team Bridge
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,10 +23,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-
 public class ChangelogFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -34,35 +30,14 @@ public class ChangelogFragment extends Fragment {
 
         View changelogView = inflater.inflate(R.layout.changelog_fragment, container, false);
 
-        AboutActivity aboutActivity = new AboutActivity();
-
         TextView changelogVersion = (TextView) changelogView.findViewById(R.id.changelog_version);
-        String version =  aboutActivity.getRomVersion();
+        String version = Utils.getRomVersion();
         changelogVersion.append(" " + version);
 
         TextView changelogText = (TextView) changelogView.findViewById(R.id.changelog);
-        changelogText.setText(readChangelog());
+        changelogText.setText(Utils.readRawFile(AboutActivity.appContext, R.raw.changelog));
 
         // Inflate the layout for this fragment
         return changelogView;
     }
-
-    private String readChangelog() {
-        InputStream inputStream = getResources().openRawResource(R.raw.changelog);
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-
-        int i;
-        try {
-            i = inputStream.read();
-        while (i != -1) {
-           byteArrayOutputStream.write(i);
-           i = inputStream.read();
-        }
-            inputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return byteArrayOutputStream.toString();
-    }
-
 }
