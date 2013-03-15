@@ -1,14 +1,14 @@
 beta3
 - Pie control update
-- Remove Sense style recent menu
+- Removed Sense style recent menu
 - Toggle rewrite
-- Fixed systemUI crash
+- Fixed SystemUI crash
 - More detail back to kill toast
 - Navbar performance update
 - Fixed expanded desktop mode
+- Fixed Camera settings FCs
+- Fixed Tapatalk FCs
 - Fixed many bugs
-- Fixed camera setting fc
-- Fixed taptalk fc
 - Added many features
 
 beta 2
