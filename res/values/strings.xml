@@ -16,7 +16,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">About ThinkingBridge</string>
+    <string name="app_name">About TeamBridge</string>
 
     <string name="about_tab_title">About</string>
     <string name="changelog_tab_title">Changelog</string>
@@ -27,7 +27,7 @@
     <string name="changelog_title">CHANGELOG:</string>
     <string name="changelog_version_text">Current Version:</string>
 
-    <string name="contact_title">Contacting ThinkingBridge:</string>
+    <string name="contact_title">Contacting TeamBridge:</string>
     <string name="contact_text">http://tbridge.kr\nTwitter: TBridgeROM\n\nWe are also on Develoid and XDA forums</string>
 
     <string name="finish_button_text">Finish</string>

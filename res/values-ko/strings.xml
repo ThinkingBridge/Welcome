@@ -16,7 +16,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">Welcome</string>
+    <string name="app_name">환영합니다</string>
 
     <string name="about_tab_title">대하여</string>
     <string name="changelog_tab_title">체인지로그</string>
@@ -27,8 +27,8 @@
     <string name="changelog_title">체인지로그:</string>
     <string name="changelog_version_text">현재버전:</string>
 
-    <string name="contact_title">ThinkingBridge와 소통하기:</string>
-    <string name="contact_text">http://tbridge.kr\nTwitter: @ThinkingBridge\n\nThinkingBridge는 디벨로이드와 xda 포럼 등에서 볼수있습니다.</string>
+    <string name="contact_title">TeamBridge 와 소통하기:</string>
+    <string name="contact_text">http://tbridge.kr\nTwitter: @TBridgeROM\n\nThinkingBridge는 디벨로이드와 xda 포럼 등에서 볼수있습니다.</string>
 
     <string name="finish_button_text">끝</string>
     <string name="back_button_text">뒤로</string>
