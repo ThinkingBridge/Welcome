@@ -1,3 +1,24 @@
+
+stable1
+
+- Performance Update
+- Optimized System
+- Redesign memory usage in recent apps
+- Recents Lag Fix From PA
+- ScreenShot QuickTrash
+- Volume toggle
+- Memory size toggle (WIP)
+- Pie control update
+- Selectable text in gtalk
+- Adjust torch intent for CM torch
+- Reduce boot up time
+- Rework NavBar UI in ROMControl
+- Fixed navbar height issue
+- Fixed audio services
+- Fixed CMCircle battery interval
+- Fixed screen off CRT animation
+- Fixed multiuser layout for phones
+
 beta3
 - Pie control update
 - Removed Sense style recent menu
