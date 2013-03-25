@@ -1,5 +1,6 @@
 
-stable1
+
+beta 4
 
 - Performance Update
 - Optimized System
@@ -19,7 +20,8 @@ stable1
 - Fixed screen off CRT animation
 - Fixed multiuser layout for phones
 
-beta3
+beta 3
+
 - Pie control update
 - Removed Sense style recent menu
 - Toggle rewrite
@@ -33,6 +35,7 @@ beta3
 - Added many features
 
 beta 2
+
 - Add launcher configuration
 - Launcher2 -> Trebuchet
 - Fix camera FC
@@ -43,6 +46,7 @@ beta 2
 - Fixed many bugs
 
 beta 1
+
 - First release
 - AOSP 4.2.2_r1
 - Support new devices
