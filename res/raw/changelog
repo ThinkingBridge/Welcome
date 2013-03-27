@@ -8,17 +8,20 @@ beta 4
 - Recents Lag Fix From PA
 - ScreenShot QuickTrash
 - Volume toggle
-- Memory size toggle (WIP)
+- Memory size toggle
 - Pie control update
 - Selectable text in gtalk
 - Adjust torch intent for CM torch
 - Reduce boot up time
 - Rework NavBar UI in ROMControl
-- Fixed navbar height issue
+- Added variable size pattern
+- Added lock screen pattern dot
+- Fixed navbar height reset issue
 - Fixed audio services
 - Fixed CMCircle battery interval
 - Fixed screen off CRT animation
 - Fixed multiuser layout for phones
+- Support new devices
 
 beta 3
 
