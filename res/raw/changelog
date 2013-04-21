@@ -1,4 +1,20 @@
 
+stable1
+
+- Add Share ThinkingBridge ROM into DeviceinfoSettings
+- Support Ad-Hoc (IBSS) mode
+- Support new devices
+- Screenshot rotaion
+- Status Bar Network Traffic Indicator
+- Improved SystemUI layout
+- Optimize Low-end devices
+- Hide statusbar clock also for DashClock
+- Update screenshot toggle
+- Remove lag when launching an app
+- Fixed Photosphere/Camera FCs
+- Fixed memory leaks
+- Fixed after change signal type or text color 
+- Fixed many bugs
 
 beta 4
 
@@ -7,6 +23,7 @@ beta 4
 - Redesign memory usage in recent apps
 - Recents Lag Fix From PA
 - ScreenShot QuickTrash
+- Support new devices
 - Volume toggle
 - Memory size toggle
 - Pie control update
@@ -21,7 +38,6 @@ beta 4
 - Fixed CMCircle battery interval
 - Fixed screen off CRT animation
 - Fixed multiuser layout for phones
-- Support new devices
 
 beta 3
 
