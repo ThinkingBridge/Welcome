@@ -1,75 +1,96 @@
+stable2
+
+- Common: Merged android 4.2.2_r1.2
+- Common: Added FullSwing on ScrollView,Webview
+- Common: Added AOKP Ribbon
+- Common: Added turn off action to WiFi Tether notification
+- Common: Rework LockScreen
+- Common: Fixed SystemUI memory leaks
+- Common: Support Galaxy S4
+- Contacts: Update T9 dialer
+- Contacts: Display location support
+- Contacts: Make company name on title bar more readable 
+- Contacts: force left justification on separator headers in contact list
+- Phone: Added support for proprietary libaudio voice quality filter
+- Phone: Ignore restart ringer once silent requested when incoming call
+- Settings: Added AirplaneMod Enabler into settings
+- Settings: Auto-brightness updates
+- Settings: Fixed many bugs
+- ROMControl: Added LED Control
+- ROMControl: Show back action arrow in main menu
+- Wallpaper: Follow ParanoidAndroid GNU GPLv2 license and add solid color
+
 
 stable1
 
-- Add Share ThinkingBridge ROM into DeviceinfoSettings
-- Support Ad-Hoc (IBSS) mode
-- Support new devices
-- Screenshot rotaion
-- Status Bar Network Traffic Indicator
-- Improved SystemUI layout
-- Optimize Low-end devices
-- Hide statusbar clock also for DashClock
-- Update screenshot toggle
-- Remove lag when launching an app
-- Fixed Photosphere/Camera FCs
-- Fixed memory leaks
-- Fixed after change signal type or text color 
-- Fixed many bugs
+- Common: Support Ad-Hoc (IBSS) mode
+- Common: Support new devices
+- Common: Screenshot rotaion
+- Common: Status Bar Network Traffic Indicator
+- Common: Improved SystemUI layout
+- Common: Optimize Low-end devices
+- Common: Hide statusbar clock also for DashClock
+- Common: Update screenshot toggle
+- Common: Remove lag when launching an app
+- Common: Fixed Photosphere/Camera FCs
+- Common: Fixed memory leaks
+- Common: Fixed many bugs
+- Settings: Add Share ThinkingBridge ROM into DeviceinfoSettings
+- ROMControl: Fixed after change signal type or text color 
 
 beta 4
 
-- Performance Update
-- Optimized System
-- Redesign memory usage in recent apps
-- Recents Lag Fix From PA
-- ScreenShot QuickTrash
-- Support new devices
-- Volume toggle
-- Memory size toggle
-- Pie control update
-- Selectable text in gtalk
-- Adjust torch intent for CM torch
-- Reduce boot up time
-- Rework NavBar UI in ROMControl
-- Added variable size pattern
-- Added lock screen pattern dot
-- Fixed navbar height reset issue
-- Fixed audio services
-- Fixed CMCircle battery interval
-- Fixed screen off CRT animation
-- Fixed multiuser layout for phones
+- Common: Performance Update
+- Common: Optimized System
+- Common: Redesign memory usage in recent apps
+- Common: Recents Lag Fix From PA
+- Common: ScreenShot QuickTrash
+- Common: Support new devices
+- Common: Volume toggle
+- Common: Pie control update
+- Common: Selectable text in gtalk
+- Common: Adjust torch intent for CM torch
+- Common: Reduce boot up time
+- Common: Rework NavBar UI in ROMControl
+- Common: Fixed audio services
+- Common: Fixed CMCircle battery interval
+- Common: Fixed screen off CRT animation
+- Common: Fixed multiuser layout for phones
+- Settings: Added variable size pattern
+- Settings: Added lock screen pattern dot
+- ROMControl:  navbar height reset issue
 
 beta 3
 
-- Pie control update
-- Removed Sense style recent menu
-- Toggle rewrite
-- Fixed SystemUI crash
-- More detail back to kill toast
-- Navbar performance update
-- Fixed expanded desktop mode
-- Fixed Camera settings FCs
-- Fixed Tapatalk FCs
-- Fixed many bugs
-- Added many features
+- Common: Pie control update
+- Common: Removed Sense style recent menu
+- Common: Toggle rewrite
+- Common: Fixed SystemUI crash
+- Common: More detail back to kill toast
+- Common: Navbar performance update
+- Common: Fixed Tapatalk FCs
+- Common: Fixed many bugs
+- Common: Added many features
+- Camera: Fixed Camera settings FCs
+- ROMControl: Fixed expanded desktop mode
 
 beta 2
 
-- Add launcher configuration
-- Launcher2 -> Trebuchet
-- Fix camera FC
-- Sense style recent menu
-- Improved layout for CMCircleBattery
-- Fix NPE on Phonestatusbar
-- Support multiuser on phones
-- Fixed many bugs
+- Common: Launcher2 -> Trebuchet
+- Common: Fix camera FC
+- Common: Sense style recent menu
+- Common: Improved layout for CMCircleBattery
+- Common: Fix NPE on Phonestatusbar
+- Common: Support multiuser on phones
+- Common: Fixed many bugs
+- Settings: Add launcher configuration
 
 beta 1
 
-- First release
-- AOSP 4.2.2_r1
-- Support new devices
-- Fixed korean camera sound
-- Support multiusers on phone
-- Add Pie control
-- Add Customom hardware keys
+- Common: First release
+- Common: AOSP 4.2.2_r1
+- Common: Support new devices
+- Common: Fixed korean camera sound
+- Common: Support multiusers on phone
+- Common: Add Pie control
+- Common: Add Customom hardware keys
