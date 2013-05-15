@@ -1,3 +1,22 @@
+
+
+stable3
+
+- Common: WirelessADB Toggle
+- Common: StayAwake Toggle 
+- Common: Fixed Pie Toggle
+- Common: Fixed Screen off animation
+- Common: 4 state version expanded desktop
+- Common: New PIE Control
+- Common: Screen Sizing for TabUI when HiddenNav Enabled
+- Common: Enable navigation bar transparency to be shown
+- Common: Rework StatusBar logic
+- Common: Auto Keyboard Rotation
+- Common: Notification Shortcuts
+- Common: Wifi name to notification drawer
+- Settings: Remove Partition info
+- Settings: Remove multiusers for phone
+
 stable2
 
 - Common: Merged android 4.2.2_r1.2
