@@ -1,20 +1,25 @@
 
 SB3
 
+- Common: ListView Animation!
+- Common: Stabilization
 - Common: WirelessADB Toggle
 - Common: StayAwake Toggle 
-- Common: Fixed Pie Toggle
 - Common: Fixed Screen off animation
-- Common: 4 state version expanded desktop
-- Common: New PIE Control
 - Common: Screen Sizing for TabUI when HiddenNav Enabled
 - Common: Enable navigation bar transparency to be shown
-- Common: Rework StatusBar logic
 - Common: Auto Keyboard Rotation
 - Common: Notification Shortcuts
 - Common: Wifi name to notification drawer
+- Common: Add second clock
+- Common: More battery icons
+- Common: Profiles settings
+- Common: New LED Settings
+- Settings: 2 ActionBar Settings (Common, System)
 - Settings: Remove Partition info
 - Settings: Remove multiusers for phone
+- ROMControl: Bye bye romcontrol
+- Trebuchet: Bye bye trebuchet
 
 stable2
 
