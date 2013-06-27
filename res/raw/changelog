@@ -1,4 +1,19 @@
 
+
+SB4
+- Common: ListView Animation bug fixed!
+- Common: Tile Background and Press Color
+- Common: New color picker (Thanks to slim)
+- Common: Fixed lag!
+- Common: Stabilization
+- Common: Fixed galaxy s2 image crash bug
+- SystemUI: fixed not update bugs (Ribbon or brightness control)
+- PackagesInstaller: Fixed install apps bug
+- Nfc: Fixed Nfc on/off bug
+
+
+
+
 SB3
 
 - Common: ListView Animation!
@@ -19,7 +34,6 @@ SB3
 - Settings: Remove Partition info
 - Settings: Remove multiusers for phone
 - ROMControl: Bye bye romcontrol
-- Trebuchet: Bye bye trebuchet
 
 stable2
 
